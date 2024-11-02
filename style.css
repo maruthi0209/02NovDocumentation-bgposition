@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1, .container2, .container3, .container4 {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.child3, .child2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/2018_Nissan_GT-R_Premium_in_Super_Silver%2C_Front_Right%2C_10-11-2022.jpg/640px-2018_Nissan_GT-R_Premium_in_Super_Silver%2C_Front_Right%2C_10-11-2022.jpg');
+    width: 50%;
+    height: 80%;
+}
+.child2 {
+    background-position: center;
+}
+.child3 {
+    background-position: top;
+}
+.child1, .child4, .child7, .child10 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.child5, .child6 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Carlos_Ghosn_GT-R.jpg/640px-Carlos_Ghosn_GT-R.jpg');
+    width: 50%;
+    height: 80%;
+}
+.child5 {
+    background-position: left center;
+}
+.child6 {
+    background-position: right 40%;
+}
+
+.child9, .child8 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Nissan_Skyline_GT-R_V35.jpg/640px-Nissan_Skyline_GT-R_V35.jpg');
+    width: 50%;
+    height: 80%;
+}
+.child8 {
+    background-position: top left 30%;
+}
+.child9 {
+    background-position: bottom right 50%;
+}
+
+.child11, .child12 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Osaka_Motor_Show_2019_%28162%29_-_Nissan_GT-R_50th_Anniversary_%284BA-R35%29.jpg/640px-Osaka_Motor_Show_2019_%28162%29_-_Nissan_GT-R_50th_Anniversary_%284BA-R35%29.jpg');
+    width: 50%;
+    height: 80%;
+}
+.child11 {
+    background-position: top 30% right 20%;
+}
+.child12 {
+    background-position: bottom 10% center 5%;
+}
+
+
+
+
+
+
+
